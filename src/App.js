@@ -51,7 +51,7 @@ changeHendler = (e) => {
 SubmitHandler = (e) => {
 e.preventDefault()
 
-axios.post('http://172.16.5.161:5000/api/dtt/',{
+axios.post('http://35.201.8.6:5000/api/dtt/',{
   dtt: this.state.dtt,
   spm: this.state.spm,
   kode_masuk: this.state.kode_masuk,
